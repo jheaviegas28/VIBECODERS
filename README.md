@@ -24,7 +24,7 @@ Uses real-time spending insights to encourage better financial habits.
 Promotes financial literacy and responsible spending among students.
 Encourages long-term saving habits and financial discipline.
 Digital solution with minimal operational resources, making it scalable and sustainable.
--USP (Unique Selling Proposition)
+-Unique Selling Proposition
 Specifically designed for students and young adults.
 Virtual savings pots for goal-based saving.
 Smart overspending alerts and spending analysis in a simple, user-friendly interface.
@@ -50,25 +50,29 @@ Github
 Chatgpt
 
 #Implementation Details
-User Registration and Login
+-User Registration and Login
 Users create an account and securely log in.
 Authentication verifies user credentials before granting access.
-Expense Tracking Module
+-Expense Tracking Module
 Users enter income and expense details.
 Data is categorized (Food, Travel, Shopping, Education, etc.).
 Transactions are stored in the database.
-Budget Management
+-Budget Management
 Users set monthly or weekly budgets.
 The system continuously compares spending against budget limits.
-Overspending Alert System
+-Overspending Alert System
 When spending reaches a predefined threshold (e.g., 80% of budget), FINSTAT generates a warning notification.
 Alerts help users control unnecessary expenses.
-Virtual Savings Pots
+-Virtual Savings Pots
 Users create savings goals and allocate money to them.
 Progress toward goals is displayed visually.
-Dashboard and Reports
+-Dashboard and Reports
 Generates summaries of income, expenses, savings, and budget utilization.
 Graphs and charts help users understand spending patterns.
 
 
-
+CONTRIBUTERS
+https://github.com/Rub3n404
+https://github.com/jheaviegas28
+https://github.com/harshal-sal
+https://github.com/SimranAfonso
