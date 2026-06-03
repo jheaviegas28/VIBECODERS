@@ -1,91 +1,74 @@
-# FinStack 💰
+#Problem understanding
+PS: Daily Expense Challenge: Students overspend without realizing it.
 
-## Overview
+#Causes
+-Lack of Expense Tracking
+Students do not record their daily expenses regularly, making it difficult to know where their money is being spent.
+-Frequent Small Purchases
+Small expenses such as snacks, coffee, online subscriptions, and transportation seem insignificant individually but accumulate into a large amount over time.
+-Absence of Budget Planning
+Many students do not set monthly or weekly spending limits, leading to uncontrolled expenditures.
+-Impulse Spending
+Attractive discounts, sales, and peer influence often encourage unplanned purchases.
+-Poor Financial Awareness
+Students may not fully understand their spending patterns or the impact of unnecessary expenses on their savings.
+-No Real-Time Spending Alerts
+Without notifications or warnings, students often realize they have exceeded their budget only after most of their funds are spent.
 
-FinStack is a smart expense tracking application designed to help students and young adults manage their finances effectively. Many people overspend without realizing where their money goes. FinStack provides an easy way to monitor daily spending, stay within budget, and save towards personal goals.
+#Solution approach
+ FINSTAT is a web-based personal finance management platform designed for students. It helps users track income and expenses, create savings goals through virtual savings pots, and receive alerts to prevent overspending.
+-Scope of Innovation
+Combines expense tracking, budgeting, savings goals, and overspending alerts in a student-focused platform.
+Uses real-time spending insights to encourage better financial habits.
+-Impact and Sustainability
+Promotes financial literacy and responsible spending among students.
+Encourages long-term saving habits and financial discipline.
+Digital solution with minimal operational resources, making it scalable and sustainable.
+-USP (Unique Selling Proposition)
+Specifically designed for students and young adults.
+Virtual savings pots for goal-based saving.
+Smart overspending alerts and spending analysis in a simple, user-friendly interface.
+-Business Model
+Freemium Model: Basic expense tracking and budgeting features available for free.
+Premium Subscription: Advanced analytics, personalized insights, and additional savings features.
+Partnership Opportunities: Collaborations with educational institutions and financial service providers.
 
-## Problem Statement
 
-Students often struggle with managing their expenses due to a lack of financial awareness and budgeting habits. Small daily expenses can accumulate quickly, leading to overspending and difficulty saving money for future goals.
+#Design Decisions
+The following design decisions were made while developing FINSTAT:
+-Student-Centric Interface: The UI is kept simple and intuitive so that students can easily track expenses without financial expertise.
+-Goal-Oriented Savings: Virtual savings pots were included to motivate users to save for specific goals such as gadgets, trips, or educational expenses.
+-Real-Time Monitoring: Expense entries are immediately reflected in reports and budgets, allowing users to monitor spending patterns.
+-Responsive Design: The website is designed to work smoothly on desktops, tablets, and mobile devices.
+-Security and Privacy: User financial data is stored securely, and access is restricted through authentication mechanisms.
+-Modular Architecture: Features such as expense tracking, budgeting, and savings management are developed as separate modules for easier maintenance and future upgrades.
 
-## Solution
+#Technologies Used
+Google AI studio 
+Stitch
+Github
+Chatgpt
 
-FinStack helps users:
+#Implementation Details
+User Registration and Login
+Users create an account and securely log in.
+Authentication verifies user credentials before granting access.
+Expense Tracking Module
+Users enter income and expense details.
+Data is categorized (Food, Travel, Shopping, Education, etc.).
+Transactions are stored in the database.
+Budget Management
+Users set monthly or weekly budgets.
+The system continuously compares spending against budget limits.
+Overspending Alert System
+When spending reaches a predefined threshold (e.g., 80% of budget), FINSTAT generates a warning notification.
+Alerts help users control unnecessary expenses.
+Virtual Savings Pots
+Users create savings goals and allocate money to them.
+Progress toward goals is displayed visually.
+Dashboard and Reports
+Generates summaries of income, expenses, savings, and budget utilization.
+Graphs and charts help users understand spending patterns.
 
-* Track daily expenses in real-time.
-* Set spending limits and budgets.
-* Receive alerts when approaching budget thresholds.
-* Build healthy financial habits through consistent monitoring.
-* Save money systematically for future goals.
 
-## Key Features
 
-### 📊 Expense Tracking
-
-* Record and categorize daily expenses.
-* View spending history and summaries.
-* Gain insights into spending patterns.
-
-### ⚠️ Budget Alerts
-
-* Set  budget limits for the week.
-* Receive notifications when spending nears predefined limits.
-* Avoid unexpected overspending.
-
-### 🎯 Saving Pots
-
-Saving Pots are dedicated savings goals where users can contribute money over time.
-
-Examples:
-
-* Munnar Trip
-* New Laptop
-* Emergency Fund
-* College Fest Expenses
-
-Features:
-
-* Create multiple saving pots.
-* Set target amounts and deadlines.
-* Track progress toward goals.
-* Make regular contributions whenever possible.
-
-### 🚨 Emergency Break Option
-
-In case of emergencies, users can withdraw funds from a Saving Pot before reaching the target amount. This feature ensures that saved money remains accessible when urgently needed.
-
-## Tech Stack
-
-## Tech Stack Summary
-
-**Finstack** is built using a modern full-stack web development stack focused on performance, scalability, and user experience.
-
-* **Frontend:** React 19 with TypeScript for building a fast, interactive, and type-safe user interface.
-* **Backend:** Node.js with Express, providing a reliable and efficient server architecture.
-* **Build & Development:** Vite 6 enables lightning-fast development and optimized production builds, while esbuild and tsx handle TypeScript compilation and execution.
-* **Styling & UI:** Tailwind CSS 4 delivers responsive and customizable designs, complemented by Motion for smooth animations and Lucide React for a consistent icon system.
-* **AI Integration:** The Google GenAI SDK is integrated on the server side, enabling secure communication with Gemini AI models without exposing API credentials to users.
-
-This stack ensures **high performance, maintainability, scalability, and a modern user experience** across the application.Future Enhancements
-
-* AI-powered spending insights.
-* Savings recommendations.
-* Investment tracking.
-* Shared saving pots for groups and trips.
-* Expense analytics dashboards.
-* Gamification and reward systems.
-
-## Team
-
-Developed as part of a project focused on improving personal financial management for students and young adults.
-
-[**harshal-sal**](https://github.com/harshal-sal)[ Harshal Salunke](https://github.com/harshal-sal)
-**jheaviegas28** Jhea
-
-Rub3n404 - Ruben Pinheiro
-
-Simran Afonso
-
----
-
-**FinStack – Stack Your Savings, Track Your Future.**
